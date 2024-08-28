@@ -68,6 +68,6 @@ class TrainingPipeline:
         
     def run_pipeline(self):
         try:
-            Data
+            pass
         except Exception as e:
             raise NetworkSecurityException(e, sys)
