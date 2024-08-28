@@ -4,6 +4,8 @@ from NetworkSecurity.Constant import training_pipeline
 
 print(training_pipeline.ARTIFACT_DIR)
 
+print(training_pipeline.PIPELINE_NAME)
+
 class TrainingPipelineConfig:
     def __init__(self):
         pass
