@@ -21,7 +21,7 @@ class ModelEvaluation:
     def initiate_model_evaluation(self) -> ModelEvaluationArtifact:
         try:
             valid_train_file_path = self.data_validation_artifact.valid_train_file_path
-            valid_test_file_path = self.data_validation_artifact,valid_test_file_path
+            valid_test_file_path = self.data_validation_artifact.valid_test_file_path
 
             #valid train and test file dataframe
             train_df = pd.read_csv(valid_train_file_path)
